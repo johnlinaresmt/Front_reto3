@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
+    <script type="text/javascript" src="js/consultar.js"></script>
+    <script type="text/javascript" src="js/guardar.js"></script>
+    <script type="text/javascript" src="js/eliminar.js"></script>
+    <script type="text/javascript" src="js/editar.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Proyecto Software Ciclo3</title>
+</head>
+<body>
+    <h3 class="project-titulo">Proyecto ciclo 3</h3>
+    <header>
+        <h1>TIENDA DE COMPUTADORES</h1>
+    </header>
+
+    <!--------------------------------------------->
+    <!-----------------CATEGORIAS------------------->
+    <!--------------------------------------------->
+
+    <div class="container1">
+        <section class="registrar">
+            <h2 class="registrar-titulo">REGISTRAR UNA CATEGORIA:</h2>
+
+            <!-- <label>ID</label>
+            <input id="id" type="number"/>  -->
+
+            <label>NAME</label>
+            <input id="Catname" type="text"/>
+        
+            <label>DESCRIPTION</label>
+            <input id="Catdescription" type="text"/>
+               
+            <button class="btn-guardar" onclick="guardarCategoria()">Guardar Categoria</button>
+        </section>
+
+        <section class="lista">
+            <h2 class="lista-titulo">LISTA DE CATEGORIAS:</h2>
+            <div id="tablaCat"></div>
+            <button class="btn-consultar" onclick="consultarCategoria()">Consultar Categoria</button>
+        
+        </section>
+    </div>
+
+    <!--------------------------------------------->
+    <!-----------------COMPUTADORES------------------>
+    <!--------------------------------------------->
+
+    <div class="container2">
+        <section class="registrar">
+            <h2 class="registrar-titulo">REGISTRAR UN COMPUTADOR:</h2>
+            <!-- <label>ID</label>
+            <input id="id" type="number"/>  -->
+
+            <label>NAME</label>
+            <input id="Cname" type="text"/>
+        
+            <label>BRAND</label> 
+            <input id="brand" type="text"/>
+        
+            <label>YEAR</label>
+            <input id="year" type="number"/>
+        
+            <label>DESCRIPTION</label>
+            <input id="description" type="text"/>
+               
+            <button class="btn-guardar" onclick="guardarComputer()">Guardar</button>
+        </section>
+
+        <section class="lista">
+            <h2 class="lista-titulo">LISTA DE COMPUTADORES:</h2>
+            <div id="tabla"></div>
+            <button class="btn-consultar" onclick="consultarComputer()">Consultar Datos</button>
+        
+        </section>
+    </div>
+        
+    <!--------------------------------------------->
+    <!-----------------CLIENTES------------------>
+    <!--------------------------------------------->
+    <div class="container3">
+
+        <section class="registrar">
+            <h2 class="registrar-titulo">REGISTRAR UN CLIENTE:</h2>
+
+            <label>ID</label>
+            <input id="id" type="number"/> 
+        
+            <label>EMAIL</label> 
+            <input id="email" type="text"/>
+        
+            <label>PASSWORD</label>
+            <input id="password" type="text"/>
+        
+            <label>NAME</label>
+            <input id="Clname" type="text"/>
+
+            <label>AGE</label>
+            <input id="age" type="number"/>
+        
+            <button class="btn-guardar" onclick="guardarClient()">guardar Cliente</button>
+        </section>
+
+        <section class="lista">
+            <h2 class="lista-titulo">LISTA DE CLIENTES:</h2>
+            <div id="tablaClient"></div>
+            <button class="btn-consultar" onclick="consultarClient()">Consultar Datos Clientes</button>
+        
+        </section>
+    </div>
+       
+    <!--------------------------------------------->
+    <!-----------------MENSAJES------------------>
+    <!--------------------------------------------->
+    <div class="container4">
+
+        <section class="registrar">
+            <h2 class="registrar-titulo">REGISTRAR MENSAJE:</h2>
+        
+            <label>MENSAJE</label> 
+            <input id="message" type="text"/>
+        
+            <button class="btn-guardar" onclick="guardarMessage()">Guardar Mensaje</button>
+        </section>
+
+        <section class="lista">
+            <h2 class="lista-titulo">LISTA DE MENSAJES:</h2>
+            <div id="tablaMessage"></div>
+            <button class="btn-consultar" onclick="consultarMessage()">Consultar Mensaje</button>
+        
+        </section>
+    </div>
+
+    <!--------------------------------------------->
+    <!-----------------RESERVAS------------------->
+    <!--------------------------------------------->
+
+    <div class="container5">
+
+        <section class="registrar">
+            <h2 class="registrar-titulo">REGISTRAR RESERVAS:</h2>
+        
+            <label>FECHA INICIO</label> 
+            <input id="date" type="date"/>
+
+            <label>FECHA DEVOLUCION</label> 
+            <input id="dateDev" type="date"/>
+
+            <button class="btn-guardar" onclick="guardarReserva()">Guardar Reserva</button>
+        </section>
+
+        <section class="lista">
+            <h2 class="lista-titulo">LISTA DE RESERVAS:</h2>
+            <div id="tablaReservas"></div>
+            <button class="btn-consultar" onclick="consultarReserva()">Consultar Reserva</button>
+        
+        </section>
+    </div>
+
+</body>
+</html>
