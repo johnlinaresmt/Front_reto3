@@ -17,7 +17,7 @@ function editarCategoria(){
     console.log(categoria);
 
     $.ajax({
-        url: "http://localhost:8080/api/Category/update",
+        url: "http://150.136.105.81:8080/api/Category/update",
         type: 'PUT',
         dataType: 'json',
         headers: {
@@ -50,7 +50,7 @@ function editarComputer(){
     console.log(computer);
 
     $.ajax({
-        url: "http://localhost:8080/api/Computer/update",
+        url: "http://150.136.105.81:8080/api/Computer/update",
         type: 'PUT',
         dataType: 'json',
         headers: {
@@ -83,7 +83,7 @@ function editarClient(){
     console.log(client);
 
     $.ajax({
-        url: "http://localhost:8080/api/Client/update",
+        url: "http://150.136.105.81:8080/api/Client/update",
         type: 'PUT',
         dataType: 'json',
         headers: {
@@ -116,7 +116,7 @@ function editarMessage(){
     console.log(message);
 
     $.ajax({
-        url: "http://localhost:8080/api/Message/update",
+        url: "http://150.136.105.81:8080/api/Message/update",
         type: 'PUT',
         dataType: 'json',
         headers: {
@@ -149,7 +149,7 @@ function editarReservacion(){
     console.log(reserva);
 
     $.ajax({
-        url: "http://localhost:8080/api/Reservation/update",
+        url: "http://150.136.105.81:8080/api/Reservation/update",
         type: 'PUT',
         dataType: 'json',
         headers: {

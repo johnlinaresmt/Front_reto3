@@ -10,7 +10,7 @@
 function consultarById(id){
     $.ajax({
 <<<<<<< HEAD
-        url: "http://localhost:8080/api/Client/"+id,
+        url: "http://150.136.105.81:8080/api/Client/"+id,
 =======
         url: "https://"+id,
 >>>>>>> d692407910e560de06ea6c36d1ec10e846fc5fc2

@@ -12,7 +12,7 @@ function eliminarCategoria(identificador){
     console.log(categoria);
 
     $.ajax({
-        url: "http://localhost:8080/api/Category/deletecategoria",
+        url: "http://150.136.105.81:8080/api/Category/deletecategoria",
         type: 'DELETE',
         dataType: 'json',
         headers: {

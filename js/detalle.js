@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 function consultarById(id){
     $.ajax({
-        url: "http://localhost:8080/api/Computer/"+id,
+        url: "http://150.136.105.81:8080/api/Computer/"+id,
         type: 'GET',
         dataType: 'json',
         success: function(respuesta){

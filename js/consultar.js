@@ -55,7 +55,7 @@ function mostrarRespuestaCategoria(items) {
 function consultarComputer() {
 
     $.ajax({
-        url: "http://localhost:8080/api/Computer/all",
+        url: "http://150.136.105.81:8080/api/Computer/all",
         type: 'GET',
         dataType: 'json',
         success: function (respuesta) {
@@ -110,7 +110,7 @@ function mostrarRespuestaComputer(items) {
 function consultarClient() {
 
     $.ajax({
-        url: "http://localhost:8080/api/Client/all",
+        url: "http://150.136.105.81:8080/api/Client/all",
         type: 'GET',
         dataType: 'json',
         success: function (respuesta) {
@@ -166,7 +166,7 @@ function mostrarRespuestaClient(items) {
 function consultarMessage() {
 
     $.ajax({
-        url: "http://localhost:8080/api/Message/all",
+        url: "http://150.136.105.81:8080/api/Message/all",
         type: 'GET',
         dataType: 'json',
         success: function (respuesta) {
@@ -214,7 +214,7 @@ function mostrarRespuestaMessage(items) {
 function consultarReserva() {
 
     $.ajax({
-        url: "http://localhost:8080/api/Reservation/all",
+        url: "http://150.136.105.81:8080/api/Reservation/all",
         type: 'GET',
         dataType: 'json',
         success: function (respuesta) {

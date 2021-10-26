@@ -11,7 +11,7 @@ function guardarCategoria(){
     console.log("voy a guardar", categoria);
 
     $.ajax({
-        url: "http://localhost:8080/api/Category/save",
+        url: "http://150.136.105.81:8080/api/Category/save",
         type: 'POST',
         dataType: 'json',
         headers: {
@@ -43,7 +43,7 @@ function guardarComputer(){
     console.log("voy a guardar", computador);
 
     $.ajax({
-        url: "http://localhost:8080/api/Computer/save",
+        url: "http://150.136.105.81:8080/api/Computer/save",
         type: 'POST',
         dataType: 'json',
         headers: {
@@ -76,7 +76,7 @@ function guardarClient(){
     console.log("voy a guardar", client);
 
     $.ajax({
-        url: "http://localhost:8080/api/Client/save",
+        url: "http://150.136.105.81:8080/api/Client/save",
         type: 'POST',
         dataType: 'json',
         headers: {
@@ -105,7 +105,7 @@ function guardarMessage(){
     console.log("voy a guardar", messages);
 
     $.ajax({
-        url: "http://localhost:8080/api/Message/save",
+        url: "http://150.136.105.81:8080/api/Message/save",
         type: 'POST',
         dataType: 'json',
         headers: {
@@ -134,7 +134,7 @@ function guardarReserva(){
     console.log("voy a guardar", reservas);
 
     $.ajax({
-        url: "http://localhost:8080/api/Reservation/save",
+        url: "http://150.136.105.81:8080/api/Reservation/save",
         type: 'POST',
         dataType: 'json',
         headers: {
